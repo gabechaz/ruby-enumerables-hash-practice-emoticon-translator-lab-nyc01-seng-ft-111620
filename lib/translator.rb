@@ -1,12 +1,9 @@
 # require modules here
 require 'yaml'
 
-EMOTICONS = 
-YAML.load_file
 
-def show_yaml
-  EMOTICONS
-end
+
+
 def load_library(file)
   hash_library = {}
   the_hash = YAML.load_file(file)
