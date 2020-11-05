@@ -26,6 +26,7 @@ def get_english_meaning(file,emoticon)
         return_value = name_key
     end
   end
+end
   return_value
 end
 
