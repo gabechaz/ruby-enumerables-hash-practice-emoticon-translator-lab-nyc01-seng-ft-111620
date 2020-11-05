@@ -27,6 +27,9 @@ def get_japanese_emoticon(file,e_emoticon)
     end
     
 end
+if final_emoticon = nil
+  final_emoticon = 
+end
 final_emoticon 
 end
 
