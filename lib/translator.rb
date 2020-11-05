@@ -20,7 +20,7 @@ def get_japanese_emoticon(file,e_emoticon)
       if emoji == e_emoticon
         emoticon_hash.each do |lang, emoj|
           if lang == :japanese
-            final_emoticon = emoji
+            final_emoticon = emoj
           end
         end
       end
