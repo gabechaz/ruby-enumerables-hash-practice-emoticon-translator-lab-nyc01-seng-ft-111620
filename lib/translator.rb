@@ -16,7 +16,11 @@ end
 def get_japanese_emoticon(file,e_emoticon)
   final_emoticon = nil
   load_library(file).each do |name_key, emoticon_hash|
-    emoticon_hash.each do |
+    emoticon_hash.each do |language,emoji|
+      if emoji == e_emoticon
+        
+      end
+    end
     
 end
 end
