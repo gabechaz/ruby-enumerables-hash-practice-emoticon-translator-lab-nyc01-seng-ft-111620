@@ -7,7 +7,7 @@ YAML.load_file
 def show_yaml
   p emoticons
 end
-def load_library(file)
+def load_library
 
     
 end
