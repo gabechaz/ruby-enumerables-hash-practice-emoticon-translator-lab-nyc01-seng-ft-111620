@@ -13,8 +13,8 @@ def load_library(file)
   hash_library
 end
 
-def get_japanese_emoticon
-  # code goes here
+def get_japanese_emoticon(file, )
+  final_emoticon = nil
 end
 
 def get_english_meaning(file,emoticon)
