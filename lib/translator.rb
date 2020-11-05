@@ -2,11 +2,13 @@
 require 'yaml'
 
 emoticons = 
-YAML.load_file('lib/emoticons.yml')
+YAML.load_file
+
+def show_yaml
+  p emoticons
+end
 def load_library(file)
-  hash = YAML.load_file(file)
-  hash.map do |key1, value1|
-    key1 = {key1: 
+
     
 end
 
