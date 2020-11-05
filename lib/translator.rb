@@ -15,7 +15,8 @@ end
 
 def get_japanese_emoticon(file,e_emoticon)
   final_emoticon = nil
-  load_library(file).each do |name
+  load_library(file).each do |name_key, emoticon_hash|
+    
     
 end
 end
