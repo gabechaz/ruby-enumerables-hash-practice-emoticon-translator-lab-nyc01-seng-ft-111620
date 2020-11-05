@@ -19,12 +19,15 @@ def get_japanese_emoticon(file,e_emoticon)
     emoticon_hash.each do |language,emoji|
       if emoji == e_emoticon
         emoticon_hash.each do |lang, emoj|
-          if lang == 
+          if lang == :japanese
+            final_emoticon = emoji
+          end
         end
       end
     end
     
 end
+final_emoticon 
 end
 
 def get_english_meaning(file,emoticon)
