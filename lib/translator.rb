@@ -18,6 +18,14 @@ def get_japanese_emoticon
 end
 
 def get_english_meaning(file,emoticon)
-  load_library.each do 
+  return_value = nil
+  load_library(file).each do
+    |name_key,emoticon_hash|
+    emoticon_hash.each do |language, emoji|
+      if emoji == emoticon
+        return_value = name_key
+    end
+  end
+  return_value
 end
 
